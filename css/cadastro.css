@@ -1,0 +1,93 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #33752a; /* Cor de fundo verde */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px; /* Espaçamento inferior para etiquetas */
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #4CAF50; /* Cor da borda verde */
+    border-radius: 5px;
+}
+
+.form-group button {
+    background-color: #33752a; /* Cor do botão verde */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #45a049; /* Cor do botão verde escuro no hover */
+}
+
+.btn {
+    background-color: #33752a; /* Cor do botão verde */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.btn:hover {
+    background-color: #45a049; /* Cor do botão verde escuro no hover */
+}
+
+.icons a{
+    font-size: 25px;
+    color:#333;
+    margin-left: 5px;
+    padding-top: 5px;
+}
+
+.icons a:link {
+    text-decoration:none;
+}
+
+.icons a:hover{
+    color:#33752a;
+}
+
+
+/* Estilos para telas menores (máximo de 600px) */
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group button {
+        width: 100%;
+    }
+}
